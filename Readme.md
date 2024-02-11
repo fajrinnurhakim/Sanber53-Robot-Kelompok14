@@ -54,5 +54,5 @@ Make sure you have installed the following software :
     ```
     example:
     ```bash
-    robot login\login.robot
+    robot login/login.robot
     ```
