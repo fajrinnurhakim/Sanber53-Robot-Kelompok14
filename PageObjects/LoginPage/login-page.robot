@@ -8,11 +8,11 @@ Input Username
     Input Text                         locator=${username_input}    text=support@ngendigital.com
 
 Input Password
+    Wait Until Element Is Visible      locator=${password_input}
     Input Text                         locator=${password_input}    text=abc123
 
 Click Sign In Button On Login Page
-    Click Element                      locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+    Click Element                      locator=${signin_button}
 
 Verify User Success To Logged In
-    Wait Until Page Contains           locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
-
+    Wait Until Element Is Visible           ${text_view} 
