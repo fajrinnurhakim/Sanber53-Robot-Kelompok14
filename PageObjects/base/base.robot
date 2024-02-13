@@ -4,8 +4,8 @@ Library                    AppiumLibrary
 *** Variables ***
 ${REMOTE_URL}              http://localhost:4723/wd/hub
 ${PLATFORM_NAME}           Android
-${PLATFORM_VERSION}        7.0
-${DEVICE_NAME}             pixel_3
+${PLATFORM_VERSION}        13.0
+${DEVICE_NAME}             emulator-5554
 
 
 *** Keywords ***
