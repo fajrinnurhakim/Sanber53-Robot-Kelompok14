@@ -8,8 +8,12 @@ Input Username
     Input Text                         locator=${username_input}    text=TestUser
 
 Input Password
+    Wait Until Element Is Visible      locator=${password_input}
     Input Text                         locator=${password_input}    text=TestPassword
 
+Visible Element
+    Wait Until Element Is Visible      locator=${username_input}
+    Wait Until Element Is Visible      locator=${password_input}
 Click Sign In Button On Login Page
     Click Element                      locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
 

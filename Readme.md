@@ -4,7 +4,7 @@
 
 1. Moch Afrizal (Valid Search)
 2. Febby Novianti Azhara (Book Oneway)
-3. Fajrin Nurhakim (Valid Login & Book Roundtrip)
+3. Fajrin Nurhakim (Valid Login, Invalid Login & Book Roundtrip)
 4. Fajar Nugraha Sugiarto(Invalid Search)
 
 ### Link Pengerjaan
@@ -14,6 +14,7 @@
 3. [Valid Login](https://drive.google.com/file/d/1jUR8qpyiNJY7LWNubXpHDGxIHz8jrLTH/view?usp=sharing)
 4. [Book Roundtrip](https://drive.google.com/file/d/1Hag4AV4TLL9piJ0LZG3dMFXVnIncSJPo/view?usp=sharing)
 5. [Invalid Search]
+6. [Invalid Login](https://drive.google.com/file/d/197UBelqpuvOh_BvL8I1c-6HMRizeYAq7/view?usp=sharing)
 
 ## Getting Started
 
