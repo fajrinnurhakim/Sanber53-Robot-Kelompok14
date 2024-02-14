@@ -1,6 +1,6 @@
 *** Settings ***
 Resource        ../base/base.robot
-Variables       book-roundtrip-locator.yaml
+Variables       book-locator.yaml
 
 *** Keywords ***
 Open Book
