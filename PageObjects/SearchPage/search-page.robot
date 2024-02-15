@@ -14,3 +14,10 @@ Input Flight Number
 
 Click Search Button
     Click Element                        locator=//android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
+
+Input Invalid Flight Number
+    Wait Until Element Is Visible        locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+    Input Text                           locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]     text=12345
+
+Verify To Enter Valid Flight Number
+    Wait Until Page Contains           ${toast}
